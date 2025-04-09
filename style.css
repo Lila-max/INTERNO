@@ -1,0 +1,133 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color:#292F36
+}
+
+
+a{  text-decoration: none;
+    font-family:"Jost",sans-serif;
+    color:#292F36
+}
+p{
+font-family:"jost",sans-serif;
+font-size:12px;
+}
+li {
+    list-style: none;
+}
+h2{
+    font-family:"Jost",sans-serif; 
+    font-size:50px;
+    margin-bottom:15px;
+}
+h1{
+font-family:"Jost",sans-serif;
+font-size:85px;
+}
+h3{
+    font-family:"Jost",sans-serif;
+  font-size:22px;
+  margin-bottom: 15px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.width30{
+    width:30%;
+}
+.width45{
+    width:45%;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.alignCenter {
+    align-items: center;
+}
+.gap20{
+    gap:20px;
+}
+
+.paddingTop150{
+    padding-top: 150px;
+}
+.textCenter{
+    text-align:center;
+}
+.container {
+    max-width:1000px;
+    margin: auto;
+}
+.btn{
+    background-color:#292F36;
+    color:white;
+    padding-left:31px;
+    padding-right:31px;
+    padding-top:26px;
+    padding-bottom:26px;
+    display:inline-block;
+    border-radius:18px;
+}
+width30{
+widht:30%;
+}
+
+.gap20{
+    gap:20px
+}
+
+/* HEADER */
+
+
+.menu {
+    width: 30%;
+}
+
+header {
+    margin-top: 20px;
+}
+
+/* SECTION HERO */
+.hero {
+    background-image: url("asset/Banner.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 0 0 0 200px;
+    padding-top:100px;
+}
+
+.flex{
+    display:flex ;
+    flex-wrap:wrap ;
+}
+.largeur25{
+    width:25%;
+}
+.pHero{
+font-size:22px;
+margin-top:40px;
+}
+
+/*SECTION DE VIE*/
+.imageSectionDevis{
+ border-radius:0 200px 0 50px;
+}
+.iconApple{
+    width:30px;
+}
+pSectionDevie{
+    margin-bottom:15px;
+}
